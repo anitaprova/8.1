@@ -22,7 +22,7 @@ int main(){
 
         string str;
         while (in_file >> str){
-                cout << str;
+                cout << str << endl;
         }
 
         return 0;
