@@ -12,7 +12,7 @@ int main(){
         {
                 return -1;
         }
-        out_file << "Hello, World!" << endl;
+        out_file << "Hello, World!";
         out_file.close();
 
         in_file.open("hello.txt");
